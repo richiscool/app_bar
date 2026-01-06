@@ -42,6 +42,6 @@ class MainApp extends StatelessWidget {
           ),
         ),
       )
-      );
+    );
   }
 }
