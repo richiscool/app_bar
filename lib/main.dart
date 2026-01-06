@@ -18,6 +18,7 @@ class MainApp extends StatelessWidget {
             color: Colors.pink,
             size: 24.0,
             semanticLabel: 'Text to announce in accessibility modes',
+            
           ),
           elevation: 4,
           actions: [
@@ -25,14 +26,22 @@ class MainApp extends StatelessWidget {
              icon: Icon(Icons.home, color: Colors.blue, grade:2)
              ),
              IconButton(onPressed: () {},
-             icon: Icon(Icons.settings, color: Colors.red,)
+             icon: Icon(Icons.settings, color: Colors.red)
              )
           ],
         ),
-        body: Center(
-          child: Text('Hello!'),
+        body: Container(width: double.infinity,
+          height: 150.0, 
+          color: Colors.green, 
+          margin: EdgeInsets.symmetric(horizontal: 20.0),
+          padding: EdgeInsets.only(top: 25.0),
+          child: Container(
+            width: 300.0, 
+            height: 100.0, 
+            color: Colors.red, 
+          ),
         ),
-      ),
-    );
+      )
+      );
   }
 }
