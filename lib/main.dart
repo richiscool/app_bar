@@ -55,9 +55,9 @@ class MainApp extends StatelessWidget {
                         ),
                         Icon(
                           Icons.chevron_right_rounded, color: Colors.white,),
-                    ],
+                    ], //children
                   ),
-                  Text('By Allison S', style: TextStyle(color: Colors.grey),),
+                  Text('By Allison S', style: TextStyle(color: Colors.grey)),
                   Padding(
                     padding: const EdgeInsets.only(top: 10),
                     child: Row(
@@ -92,10 +92,10 @@ class MainApp extends StatelessWidget {
                           ),
                           child: Text('deep', style: TextStyle(color: Colors.white),textAlign: TextAlign.center,),
                         ),
-                      ],
+                      ], //children
                     ),
                   ),
-                ],
+                ], //children
               ),
             ),
                   Column(
@@ -146,14 +146,14 @@ class MainApp extends StatelessWidget {
                           borderRadius: BorderRadius.circular(30),
                         ),
                       ),
-                    ],
+                    ], //children
                   ),
                 ), 
-              ],   
+              ],  //children
             ), 
-          ],
+          ], //children
         ),
       ),
     );
-  }
-}
+  } 
+} 
