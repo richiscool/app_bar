@@ -25,7 +25,7 @@ class Section extends StatelessWidget {
       height: height,
       decoration: 
       BoxDecoration(
-        color: Colors.grey,
+        color: const Color.fromARGB(255, 82, 82, 82),
         borderRadius: BorderRadius.circular(30),
       ),
       child: Column(
